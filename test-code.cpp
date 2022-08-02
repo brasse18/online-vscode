@@ -3,12 +3,22 @@
 int main(int argc, char *argv[])
 {
     double ** noruns = new double * [3];
-    noruns[0] = new double [2];
+    noruns[0] = new double [3];
     noruns[0][0] = 0.1;
     noruns[0][1] = 0.1;
+    noruns[0][2] = 0.1;
 
     noruns[1] = new double [6];
+    noruns[1][0] = 0.1;
+    noruns[1][1] = 0.1;
+    noruns[1][2] = 0.1;
+    noruns[1][3] = 0.1;
+    noruns[1][4] = 0.1;
+    noruns[1][5] = 0.1;
+
     noruns[1] = new double [2];
+    noruns[2][0] = 0.1;
+    noruns[2][1] = 0.1;
  
     
 
