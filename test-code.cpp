@@ -15,3 +15,6 @@ int main(int argc, char *argv[])
     std::cout << noruns[0][0] << " " << noruns[1][0] << " " << noruns[1][0] << std::endl;
     return 0;
 }
+
+
+// compile at https://paiza.io/projects/SYHdy89R-BJG4xET_p004A?language=cpp
