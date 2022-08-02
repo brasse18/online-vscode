@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
  
     
 
-    std::cout << noruns[0][0] <<    " "     << noruns[1][0] << " " << noruns[2][0]   << std::endl;
-    std::cout <<                    "   "   << noruns[1][1] <<                       << std::endl;
-    std::cout << noruns[0][1] <<    "   "   << noruns[1][2] <<                       << std::endl;
-    std::cout <<                    "   "   << noruns[1][3] <<                       << std::endl;
-    std::cout << noruns[0][2] <<    " "     << noruns[1][4] << " " << noruns[2][0]   << std::endl;
-    std::cout <<                    "   "   << noruns[1][5] <<                       << std::endl;
+    std::cout << noruns[0][0] <<    "   "   << noruns[1][0] << " " << noruns[2][0]   << std::endl;
+    std::cout <<                    "   "   << noruns[1][1]                          << std::endl;
+    std::cout << noruns[0][1] <<    "   "   << noruns[1][2]                          << std::endl;
+    std::cout <<                    "   "   << noruns[1][3]                          << std::endl;
+    std::cout << noruns[0][2] <<    "   "   << noruns[1][4] << " " << noruns[2][0]   << std::endl;
+    std::cout <<                    "   "   << noruns[1][5]                          << std::endl;
     return 0;
 }
 
