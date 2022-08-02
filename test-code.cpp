@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     noruns[1][4] = 0.1;
     noruns[1][5] = 0.1;
 
-    noruns[1] = new double [2];
+    noruns[2] = new double [2];
     noruns[2][0] = 0.1;
     noruns[2][1] = 0.1;
  
