@@ -2,6 +2,9 @@
  
 int main(int argc, char *argv[])
 {
-
-    return 10 + 10;
+    double tal1 = 10;
+    double tal2 = 33;
+    
+    std::cout << tal1 + tal2 << std::endl;
+    return 0;
 }
