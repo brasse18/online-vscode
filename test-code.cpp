@@ -11,8 +11,7 @@ int main(int argc, char *argv[])
     noruns[1] = new double [2];
  
     
-    for 
 
-    std::cout << noruns[0][0] << std::endl;
+    std::cout << noruns[0][0] << " " << noruns[1][0] << " " << noruns[1][0] << std::endl;
     return 0;
 }
